@@ -37,7 +37,7 @@ componentDidMount(){
               <a href={banners.url}>
                   <img
                   alt=""
-                  src={`http://127.0.0.1:8000/public/uploads/slider/${banners.slider}`}
+                  src={`https://vendor.shoppinghobe.com/public/uploads/slider/${banners.slider}`}
                   style={{
                       borderRadius: '0',
                       height: 'auto!important'

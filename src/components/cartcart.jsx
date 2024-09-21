@@ -36,7 +36,7 @@ const cartcart = ({ products, onDelete }) => {
                     <img
                       alt=""
                       height="50px"
-                      src={`http://127.0.0.1:8000/uploads/product/${product.image}`}
+                      src={`https://vendor.shoppinghobe.com/uploads/product/${product.image}`}
                     />
                   </td>
                   <td>{product.name}</td>

@@ -20,7 +20,7 @@ const Category = () => {
         href=""
         title={category.name}
       >
-        <img src={`http://127.0.0.1:8000/uploads/category/${category.icon}`} alt={category.name} />
+        <img src={`https://vendor.shoppinghobe.com/uploads/category/${category.icon}`} alt={category.name} />
       </a>
       <p>
         <a href="">

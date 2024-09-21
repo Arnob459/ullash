@@ -139,7 +139,7 @@ export class footer extends Component {
                     </li>
                     <li>
                       <a
-                        href="https://ullasshop.com/seller/create"
+                        href="https://vendor.shoppinghobe.com/brand/register"
                         title=""
                       >
                         Seller Registration
@@ -147,7 +147,7 @@ export class footer extends Component {
                     </li>
                     <li>
                       <a
-                        href="https://ullasshop.com/seller/login"
+                        href="https://vendor.shoppinghobe.com/login"
                         title=""
                       >
                         Seller Login

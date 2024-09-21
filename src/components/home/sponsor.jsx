@@ -21,7 +21,7 @@ const Sponsor = () => {
         <a href={banners.url}>
           <img
             alt=""
-            src={`http://127.0.0.1:8000/public/uploads/slider/${banners.slider}`}
+            src={`https://vendor.shoppinghobe.com/public/uploads/slider/${banners.slider}`}
             className="img-fluid" // Use Bootstrap's img-fluid class for responsive images
           />
         </a>

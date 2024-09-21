@@ -74,7 +74,7 @@ export class banner extends Component {
           <div key={brand.id} className="brand-item">
             <Link to={`/brand/product/${brand.id}`} title={brand.name}>
 
-            <div className="brand-image" style={{ backgroundImage: `url(http://127.0.0.1:8000/uploads/users/${brand.avatar})` }} />
+            <div className="brand-image" style={{ backgroundImage: `url(https://vendor.shoppinghobe.com/uploads/users/${brand.avatar})` }} />
             <p>{brand.name}</p>
             </Link>
           </div>
@@ -115,7 +115,7 @@ export class banner extends Component {
     //             title={brand.name}
     //         >
     //             <img
-    //             src={`http://127.0.0.1:8000/uploads/users/${brand.avatar}`}
+    //             src={`https://vendor.shoppinghobe.com/uploads/users/${brand.avatar}`}
     //             alt={brand.name}
     //             title={brand.name}
     //         />
@@ -152,7 +152,7 @@ export class banner extends Component {
                             className="lazyload img-fit"
                             data-src=""
                             style={{ maxWidth: '60%' }} 
-                            src={`http://127.0.0.1:8000/uploads/product/${today.photos}`}
+                            src={`https://vendor.shoppinghobe.com/uploads/product/${today.photos}`}
                         />
                         </div>
                     </div>
@@ -187,7 +187,7 @@ export class banner extends Component {
                             className="lazyload img-fit"
                             data-src=""
                             style={{ maxWidth: '60%' }} 
-                            src={`http://127.0.0.1:8000/uploads/product/${ft.photos}`}
+                            src={`https://vendor.shoppinghobe.com/uploads/product/${ft.photos}`}
                         />
                         </div>
                     </div>
@@ -210,7 +210,7 @@ export class banner extends Component {
             <img
                 alt="..."
                 className=" slider_image"
-                src={`http://127.0.0.1:8000/public/uploads/slider/${sliders.slider}`}
+                src={`https://vendor.shoppinghobe.com/public/uploads/slider/${sliders.slider}`}
             />
             </div>
 
@@ -225,7 +225,7 @@ export class banner extends Component {
                 <a href={banners.url}>
                 <img
                     alt=""
-                    src={`http://127.0.0.1:8000/public/uploads/homebanner/${banners.banner}`}
+                    src={`https://vendor.shoppinghobe.com/public/uploads/homebanner/${banners.banner}`}
                 />
                 </a>
             </div>

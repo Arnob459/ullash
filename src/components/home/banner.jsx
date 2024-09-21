@@ -58,7 +58,7 @@ const Banner = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -74,16 +74,27 @@ const Banner = () => {
     autoplaySpeed: 3000,
   };
 
+  const settingsbanner = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
+
   const renderBrands = () => {
     return brands.map(brand => (
       <div key={brand.id} className="brand-item">
         <Link to={`/brand/product/${brand.id}`} title={brand.name}>
-          <div className="brand-image" style={{ backgroundImage: `url(http://127.0.0.1:8000/uploads/users/${brand.avatar})` }} />
+          <div className="brand-image" style={{ backgroundImage: `url(https://vendor.shoppinghobe.com/uploads/users/${brand.avatar})` }} />
           <p>{brand.name}</p>
         </Link>
       </div>
     ));
   };
+
+
 
   const alltodays = todays.map(today => (
     <div key={today.id} >
@@ -103,7 +114,7 @@ const Banner = () => {
                 className="lazyload img-fit"
                 data-src=""
                 style={{ maxWidth: '60%' }}
-                src={`http://127.0.0.1:8000/uploads/product/${today.photos}`}
+                src={`https://vendor.shoppinghobe.com/uploads/product/${today.photos}`}
               />
             </div>
           </div>
@@ -131,7 +142,7 @@ const Banner = () => {
                 className="lazyload img-fit"
                 data-src=""
                 style={{ maxWidth: '60%' }}
-                src={`http://127.0.0.1:8000/uploads/product/${ft.photos}`}
+                src={`https://vendor.shoppinghobe.com/uploads/product/${ft.photos}`}
               />
             </div>
           </div>
@@ -146,7 +157,7 @@ const Banner = () => {
       <img
         alt="..."
         className=" slider_image"
-        src={`http://127.0.0.1:8000/public/uploads/slider/${slider.slider}`}
+        src={`https://vendor.shoppinghobe.com/public/uploads/slider/${slider.slider}`}
       />
     </div>
   ));
@@ -156,7 +167,7 @@ const Banner = () => {
       <a href={banner.url}>
         <img
           alt=""
-          src={`http://127.0.0.1:8000/public/uploads/homebanner/${banner.banner}`}
+          src={`https://vendor.shoppinghobe.com/public/uploads/homebanner/${banner.banner}`}
         />
       </a>
     </div>
@@ -182,7 +193,7 @@ const Banner = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-8 col-md-100 col-xs-12">
+            {/* <div className="col-lg-8 col-md-100 col-xs-12">
               <div className="carousel slide " data-ride="carousel" id="carousel-example-generic">
                 <ol className="carousel-indicators">
                   <li className="active" data-slide-to="0" data-target="#carousel-example-generic" />
@@ -193,7 +204,17 @@ const Banner = () => {
                   {allsliders}
                 </div>
               </div>
+            </div> */}
+
+          <div className="col-lg-8 col-md-100 col-xs-12">
+
+
+          <Slider {...settingsbanner}>
+                  {allsliders}
+          </Slider>
+
             </div>
+
             <div className="col-lg-2 d-none d-lg-block">
               <div className="flash-deal-box bg-white h-100">
                 <div className="title text-center p-2 ctry-bg">

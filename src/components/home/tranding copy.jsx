@@ -30,7 +30,7 @@ export class tranding extends Component {
             <a href="">
                 <img
                 alt=""
-                src={`http://127.0.0.1:8000/uploads/product/${tr.photos}`}
+                src={`https://vendor.shoppinghobe.com/uploads/product/${tr.photos}`}
                 
                 />
             </a>

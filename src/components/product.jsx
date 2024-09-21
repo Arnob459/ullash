@@ -240,9 +240,9 @@ const Product = () => {
             <div className="details-image">
               <img
                 className="big_image"
-                data-zoom-image={`http://127.0.0.1:8000/uploads/product/${product.photos}`}
+                data-zoom-image={`https://vendor.shoppinghobe.com/uploads/product/${product.photos}`}
                 id="zoom_04"
-                src={`http://127.0.0.1:8000/uploads/product/${product.photos}`}
+                src={`https://vendor.shoppinghobe.com/uploads/product/${product.photos}`}
               />
             </div>
             <div className="details-image-gallery">
@@ -253,7 +253,7 @@ const Product = () => {
                   <img
                     alt=""
                     id="small_image"
-                    src={`http://127.0.0.1:8000/uploads/product/${value.icon}`}
+                    src={`https://vendor.shoppinghobe.com/uploads/product/${value.icon}`}
                   />                  
                 </div>
                 ))}

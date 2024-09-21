@@ -61,7 +61,7 @@ class Catwise extends Component {
                                 <a href="">
                                     <img
                                         alt=""
-                                        src={`http://127.0.0.1:8000/uploads/product/${product.photos}`}
+                                        src={`https://vendor.shoppinghobe.com/uploads/product/${product.photos}`}
                                     />
                                 </a>
                             </div>

@@ -33,7 +33,7 @@ export class category extends Component {
                         href=""
                         title={category.name}
                     >
-                        <img src={`http://127.0.0.1:8000/uploads/category/${category.icon}`} />
+                        <img src={`https://vendor.shoppinghobe.com/uploads/category/${category.icon}`} />
                     </a>
                     <p>
                         <a href="">

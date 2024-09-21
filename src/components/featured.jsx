@@ -30,7 +30,7 @@ export class featured extends Component {
             <a href="">
                 <img
                 alt=""
-                src={`http://127.0.0.1:8000/uploads/product/${ft.photos}`}
+                src={`https://vendor.shoppinghobe.com/uploads/product/${ft.photos}`}
                 style={{ height: '2px' }}
                 />
             </a>

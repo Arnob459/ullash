@@ -22,7 +22,7 @@ const Category = () => {
     <div key={category.id} className="mobile-category-item">
       <Link to={`/category/product/${category.id}`} title={category.name}>
         <img
-          src={`http://127.0.0.1:8000/uploads/category/${category.icon}`}
+          src={`https://vendor.shoppinghobe.com/uploads/category/${category.icon}`}
           alt={category.name}
           title={category.name}
         />
@@ -40,7 +40,7 @@ const Category = () => {
         }}>
       <Link to={`/category/product/${category.id}`} title={category.name}>
         <img
-          src={`http://127.0.0.1:8000/uploads/category/${category.icon}`}
+          src={`https://vendor.shoppinghobe.com/uploads/category/${category.icon}`}
           alt={category.name}
           title={category.name}
         />

@@ -21,7 +21,8 @@ const ProductList = () => {
 
     axios.get(`api-categories/${categoryId}`)
       .then((response) => {
-        setProducts(response.data.name);
+
+        setProducts(response.data);
       })
       .catch((error) => {
         console.log(error);
@@ -34,7 +35,7 @@ const ProductList = () => {
         <Link className="nav-b -mhs" to={`/product/${product.id}`}>
           <img
             alt=""
-            src={`http://127.0.0.1:8000/uploads/product/${product.photos}`}
+            src={`https://vendor.shoppinghobe.com/uploads/product/${product.photos}`}
           />
         </Link>
       </div>

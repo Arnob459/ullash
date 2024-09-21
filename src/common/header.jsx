@@ -63,7 +63,8 @@ const Header = () => {
 
   const mbuttons = localStorage.getItem('token') ? (
     <Link className="bottom-nav-link" to="/" onClick={logout}>
-      <i className="fa fa-user-circle" />
+      {/* <i className="fa fa-user-circle" /> */}
+      <i class="fas fa-sign-out-alt"></i>
       <span>Logout</span>
     </Link>
   ) : (
@@ -181,13 +182,13 @@ const Header = () => {
                         </span>
                     </div>
                     </Link>
-                    <Link to="/cart"
+                    <Link to="/order"
                     className="bottom-nav-item"
                     >
                     <div className="bottom-nav-link">
-                        <i className="fa fa-heart" />
+                    <i class="fas fa-shopping-bag"></i>
                         <span>
-                        Wishlist
+                        order
                         </span>
                     </div>
                     </Link>
@@ -247,7 +248,7 @@ const Header = () => {
 
                                 
                                 <span className="-mrs -fs0"  data-bdg="0" >
-                                    <img alt="shopping-cart" height="25" src={`http://127.0.0.1:8000/uploads/icon/sp.png`} title="shopping-cart" width="25" />
+                                    <img alt="shopping-cart" height="25" src={`https://vendor.shoppinghobe.com/uploads/icon/sp.png`} title="shopping-cart" width="25" />
 
                                 </span>
 
@@ -315,7 +316,7 @@ const Header = () => {
                                 <img
                                 alt="shopping-cart"
                                 height="25"
-                                src={`http://127.0.0.1:8000/uploads/icon/sp.png`}
+                                src={`https://vendor.shoppinghobe.com/uploads/icon/sp.png`}
                                 title="shopping-cart"
                                 width="25"
                                 />
@@ -341,21 +342,11 @@ const Header = () => {
                             More
                             </button>
                             <div className="dropdown-menu dropdown-menu-lg-right">
-                            <a
-                                className="dropdown-item"
-                                href=""
-                                type="button"
-                            >
-                                Help Center
-                            </a>
 
-                            <a
-                                className="dropdown-item"
-                                href=""
-                                type="button"
-                            >
-                                Order Cancellation
-                            </a>
+
+
+
+                            <p className="dropdown-item signin ss">
                             <Link to='/refund'
                                 className="dropdown-item"
                                 href=""
@@ -363,6 +354,7 @@ const Header = () => {
                             >
                                 Returns & Refunds
                             </Link>
+
                             <Link to='/policy'
                                 className="dropdown-item"
                                 href=""
@@ -370,17 +362,7 @@ const Header = () => {
                             >
                                 Privacy & Policy
                             </Link>
-                            <p className="dropdown-item signin ss">
-                                <a
-                                href=""
-                                type="button"
-                                >
-                                <i
-                                    aria-hidden="true"
-                                    className="fa fa-commenting-o"
-                                />
-                                {' '}Live Help
-                                </a>
+
                             </p>
                             </div>
                         </div>

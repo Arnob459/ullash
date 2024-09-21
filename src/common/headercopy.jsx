@@ -454,7 +454,7 @@ export class header extends Component {
                                             </li>
                                             <li>
                                                 <a
-                                                href="https://ullasshop.com/seller/create"
+                                                href="https://vendor.shoppinghobe.com/brand/register"
                                                 title=""
                                                 >
                                                 <i className="fa fa-angle-double-right" />
@@ -463,7 +463,7 @@ export class header extends Component {
                                             </li>
                                             <li>
                                                 <a
-                                                href="https://ullasshop.com/seller/login"
+                                                href="https://vendor.shoppinghobe.com/login"
                                                 title=""
                                                 >
                                                 <i className="fa fa-angle-double-right" />

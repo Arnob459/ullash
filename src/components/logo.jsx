@@ -32,7 +32,7 @@ export class logo extends Component {
     <Link to="/">
       <img
          className="logozc"
-         src={`http://127.0.0.1:8000/backend/assets/jpg/${logos.avatar}`}
+         src={`https://vendor.shoppinghobe.com/backend/assets/jpg/${logos.avatar}`}
       />
    </Link>
 

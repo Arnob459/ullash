@@ -21,7 +21,7 @@ const Tranding = () => {
       <Link className="nav-b -mhs" to={`/product/${ft.id}`}>
           <img
             alt=""
-            src={`http://127.0.0.1:8000/uploads/product/${ft.photos}`}
+            src={`https://vendor.shoppinghobe.com/uploads/product/${ft.photos}`}
           />
         </Link>
       </div>
@@ -55,7 +55,7 @@ const Tranding = () => {
       <div className="row">
         <div className="heading_title">
           <h4>
-            featured products
+            Tranding products
           </h4>
         </div>
         {allFeatureds}

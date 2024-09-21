@@ -56,7 +56,7 @@ export class banner extends Component {
                 title={brand.name}
             >
                 <img
-                src={`http://127.0.0.1:8000/uploads/users/${brand.avatar}`}
+                src={`https://vendor.shoppinghobe.com/uploads/users/${brand.avatar}`}
                 alt={brand.name}
                 title={brand.name}
             />
@@ -81,7 +81,7 @@ export class banner extends Component {
             <img
                 alt="..."
                 className="slider_image"
-                src={`http://127.0.0.1:8000/public/uploads/slider/${sliders.slider}`}
+                src={`https://vendor.shoppinghobe.com/public/uploads/slider/${sliders.slider}`}
             />
             </div>
 
@@ -96,7 +96,7 @@ export class banner extends Component {
                 <a href={banners.url}>
                 <img
                     alt=""
-                    src={`http://127.0.0.1:8000/public/uploads/homebanner/${banners.banner}`}
+                    src={`https://vendor.shoppinghobe.com/public/uploads/homebanner/${banners.banner}`}
                 />
                 </a>
             </div>

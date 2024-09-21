@@ -21,7 +21,7 @@ const Best = () => {
         <Link className="nav-b -mhs" to={`/product/${best.id}`}>
           <img
             alt=""
-            src={`http://127.0.0.1:8000/uploads/product/${best.photos}`}
+            src={`https://vendor.shoppinghobe.com/uploads/product/${best.photos}`}
           />
         </Link>
       </div>
